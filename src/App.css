@@ -40,25 +40,3 @@
 header {
   width: 100%;
 }
-
-/* NAV BAR */
-#nav_bar {
-  float: right;
-}
-
-#nav_bar li {
-  display: inline-block;
-  padding: 8px;
-}
-
-#nav_bar #sign_in {
-  background: #4887ef;
-  margin-right: 25px;
-  padding: 7px 15px;
-  border-radius: 3px;
-  font-weight: bold;
-}
-
-.nav-links {
-  color: #404040;
-}

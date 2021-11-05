@@ -1,0 +1,56 @@
+/* NAV BAR */
+.nav_bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+}
+
+.nav_bar li {
+  display: inline-block;
+  padding: 10px 10px;
+}
+
+.nav_bar li a {
+  color: #4d4c4c;
+  text-decoration: none;
+  font-weight: 540;
+  font-size: 13px;
+}
+
+.nav_bar li a span {
+  font-size: 20px;
+}
+
+.nav_bar li a:hover {
+  text-decoration: underline;
+}
+
+.nav_bar .sign_in {
+  background: #4887ef;
+  box-shadow: 1px 1px 1px 1px #6a9ad4;
+  margin-right: 28px;
+  margin-left: 10px;
+  padding: 7px 23px;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+.nav_bar .sign_in a {
+  color: white;
+  font-size: 14.5px;
+}
+
+.nav_bar .sign_in a:hover {
+  text-decoration: none;
+}
+
+.nav-links.fa_link {
+  transform: translateY(1.5px);
+  margin-left: 10px;
+}
+
+.nav-links.fa_link:hover {
+  background-color: #f7f7f7;
+  border-radius: 100%;
+}

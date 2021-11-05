@@ -1,12 +1,30 @@
-import '../App.css';
+import '../App.css'
+import styles from '../css/Navbar.module.css';
 
 const Navbar = () => {
   return <header>
   <nav>
-    <ul id="nav_bar">
-      <li class="nav-links" id="gmail"><a href="#">Gmail</a></li>
-      <li class="nav-links"><a href="#">Images</a></li>
-      <li id="sign_in"><a href="#">Sign In</a></li>
+    <ul class={styles["nav_bar"]} >
+      <li class={styles["nav-links"]} id="gmail">
+        <a href="https://mail.google.com/mail/&ogbl">
+          Gmail
+        </a>
+      </li>
+      <li class={styles["nav-links"]}>
+        <a href="https://www.google.com.ng/imghp?hl=en&ogbl">
+          Images
+        </a>
+      </li>
+      <li class={`${styles["nav-links"]} ${styles.fa_link}`}>
+        <a href="https://www.google.com.ng/intl/en/about/products">
+          <span class="fa fa-th"></span>
+        </a>
+      </li>
+      <li class={styles["sign_in"]}>
+        <a href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/&ec=GAZAmgQ">
+          Sign in
+        </a>
+      </li>
     </ul>  
   </nav>  
 </header>  
