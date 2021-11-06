@@ -1,0 +1,34 @@
+.InputContainer {
+  position: relative;
+  width: 100%;
+}
+
+.Input {
+  border: 2px solid var(--light-grey-2);
+  height: 34px;
+  padding-block: 12px;
+  padding-inline: 24px;
+  border-radius: 50px;
+  font-size: var(--font-sm-2);
+  color: var(--dark-grey);
+  width: calc(100% - 24px * 2);
+  display: block;
+}
+
+.Input::placeholder {
+  font-size: inherit;
+}
+
+.MicIcon {
+  position: absolute;
+  display: inline-block;
+  width: 38px;
+  right: 8px;
+  z-index: 2;
+  top: 18%;
+  right: 24px;
+}
+
+.MicIcon img {
+  width: 100%;
+}

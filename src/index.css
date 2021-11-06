@@ -1,0 +1,41 @@
+:root {
+  --dark-grey: #282829;
+  --light-grey-1: #f5f3f3;
+  --light-grey-2: #bebdbd;
+  --light-grey-3: #888891;
+  --column-gap: 48px;
+  --font-family: 'Product Sans';
+  --font-sm-1: 1.7rem;
+  --font-sm-2: 1.8rem;
+  --font-md: 2.8rem;
+  font-family: var(--font-family), sans-serif;
+  font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+:focus {
+  outline: none;
+}
+
+button {
+  border: none;
+}
+
+::placeholder {
+  font: inherit;
+}
+
+a {
+  text-decoration: none;
+}

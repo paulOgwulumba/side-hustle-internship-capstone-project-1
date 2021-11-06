@@ -1,0 +1,9 @@
+.NavigationList {
+  display: flex;
+  font-size: var(--font-sm-1);
+  column-gap: var(--column-gap);
+}
+
+.NavigationList li {
+  line-height: 2.8rem;
+}

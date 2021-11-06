@@ -1,0 +1,39 @@
+.Footer {
+  background-color: var(--light-grey-1);
+  color: var(--light-grey-3);
+}
+
+.LocationCaption {
+  border-bottom: 2px solid var(--light-grey-2);
+  text-align: left;
+  padding-inline-start: 24px;
+  padding-block: 18px;
+}
+
+.LocationCaption h4 {
+  font-size: var(--font-sm-2);
+}
+
+.Nav,
+.NavList_1,
+.NavList_2 {
+  display: flex;
+  font-size: var(--font-sm-1);
+}
+
+.Nav {
+  justify-content: space-between;
+  max-width: 90%;
+  margin-inline: auto;
+  padding-block: 24px 18px;
+}
+
+.NavList_1,
+.NavList_2 {
+  column-gap: var(--column-gap);
+}
+
+.NavList_1 li,
+.NavList_2 li {
+  line-height: 2.8rem;
+}

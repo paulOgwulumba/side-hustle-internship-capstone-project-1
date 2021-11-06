@@ -1,0 +1,9 @@
+.ChangeLanguage {
+  font-size: var(--font-sm-1);
+  color: var(--light-grey-3);
+  text-align: center;
+}
+
+.Language {
+  margin-left: 20px;
+}

@@ -1,0 +1,21 @@
+.Main {
+  display: inline-flex;
+  margin-inline: auto;
+  flex-direction: column;
+  align-items: center;
+  width: 628px;
+}
+
+.SearchArea > :nth-child(2) {
+  width: 80%;
+  margin-inline: auto;
+  margin-top: 24px;
+}
+
+.SearchArea > :last-child {
+  margin-top: 32px;
+}
+
+.SearchArea {
+  width: 100%;
+}

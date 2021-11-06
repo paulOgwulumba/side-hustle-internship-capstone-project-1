@@ -1,0 +1,15 @@
+.Tags {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 16px;
+  justify-content: center;
+  width: 628px;
+}
+
+.Tag {
+  font-size: var(--font-sm-2);
+  background-color: var(--light-grey-1);
+  padding: 8px 12px;
+  display: inline-block;
+  color: var(--light-grey-3);
+}
