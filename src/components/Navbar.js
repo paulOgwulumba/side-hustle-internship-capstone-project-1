@@ -6,20 +6,20 @@ const Navbar = () => {
     <header>
       <nav>
         <ul class={styles["nav_bar"]}>
-          <li class={styles["nav-links"]} id="gmail">
-            <a href="https://mail.google.com/mail/&ogbl">Gmail</a>
+          <li class={styles["nav-links"]}>
+            <a href="https://internship.sidehustle.ng/">Side Hustle</a>
           </li>
           <li class={styles["nav-links"]}>
-            <a href="https://www.google.com.ng/imghp?hl=en&ogbl">Images</a>
+            <a href="https://internship.sidehustle.ng/courses/">Courses</a>
           </li>
           <li class={`${styles["nav-links"]} ${styles.fa_link}`}>
-            <a href="https://www.google.com.ng/intl/en/about/products">
-              <span class="fa fa-th"></span>
+            <a href="https://internship.sidehustle.ng/faq">
+              <span class="fa fa-th" title="FAQs"></span>
             </a>
           </li>
           <li class={styles["sign_in"]}>
-            <a href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/&ec=GAZAmgQ">
-              Sign in
+            <a href="https://internship.sidehustle.ng/login">
+              Log in
             </a>
           </li>
         </ul>
