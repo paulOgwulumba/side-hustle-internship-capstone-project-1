@@ -1,0 +1,138 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+.Footer {
+  background-color: #f6f6f6;
+  width: 100%;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  text-align: center;
+}
+
+.Footer img {
+  margin-right: 6px;
+  height: 14px;
+}
+
+.FooterContent {
+  display: grid;
+  grid-template-areas: "links-1 carbon links-2";
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.Footer .Links1 {
+  justify-content: flex-start;
+}
+
+.Footer .Links2 {
+  justify-content: flex-end;
+}
+
+.Line {
+  width: 100%;
+  height: 1px;
+  background: #e3e5e8;
+}
+
+.Footer a {
+  color: #70757a;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.Footer a:hover {
+  text-decoration: underline;
+}
+
+.Footer .Nigeria {
+  display: flex;
+  align-items: center;
+  height: 48px;
+  text-align: left;
+  margin-left: 35px;
+  color: #70757a;
+}
+
+.Footer .Carbon {
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-area: carbon;
+}
+
+.Footer .Links1 {
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  align-items: center;
+  grid-area: links-1;
+  width: 100%;
+}
+
+.Footer .Links2 {
+  height: 48px;
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  align-items: center;
+  grid-area: links-2;
+  width: 100%;
+}
+
+.Footer .FooterContent {
+  margin: 0 35px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 440px) {
+  .FooterContent {
+    grid-template-areas:
+      "carbon"
+      "links-1"
+      "links-2";
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 441px) and (max-width: 663px) {
+  .FooterContent {
+    grid-template-areas:
+      "carbon"
+      "links-1"
+      "links-2";
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: auto;
+  }
+}
+
+@media screen and (min-width: 664px) and (max-width: 1023px) {
+  .FooterContent {
+    grid-template-areas:
+      "carbon carbon"
+      "links-1 links-2";
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .FooterContent {
+    grid-template-areas: "links-1 carbon links-2";
+    grid-template-rows: auto;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .Footer .Links1 {
+    justify-content: flex-start;
+  }
+
+  .Footer .Links2 {
+    justify-content: flex-end;
+  }
+}
