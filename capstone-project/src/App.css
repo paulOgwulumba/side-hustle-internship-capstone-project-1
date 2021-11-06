@@ -1,0 +1,60 @@
+.form{
+  text-align: center;
+}
+.logo{
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+input{
+  width: 500px;
+  line-height: 5px;
+  padding: 20px 10px;
+  margin: 10px;
+  box-shadow: azure;
+ 
+}
+.button{
+  text-align: center;
+  display: flex;
+  padding: 10px;
+  justify-content: space-evenly;
+}
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+}
+img{
+  background-size: 100px;
+  height: 100px;
+}
+ #goog {
+  height: 20px;
+  width: 150px;
+  line-height: 2px;
+  text-align: center;
+  
+  
+}
+#go{
+  height: 20px;
+  width: 150px;
+  text-align: center;
+  padding-right: 1.5px;
+}
+#go:hover{
+  transition: 0.5;
+  background-color: rgb(204, 209, 207);
+  box-shadow: azure;
+}
+#goog:hover{
+  transition: 0.5;
+  background-color: azure;
+}
+input:hover{
+  box-shadow: beige;
+  transition: 0.5;
+}
