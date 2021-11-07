@@ -1,4 +1,7 @@
-/* GOOGLE AREA */
+.body {
+  margin-bottom: 10rem;
+}
+
 .google .google_logo {
   text-align: center;
   display: block;

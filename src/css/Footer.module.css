@@ -91,6 +91,9 @@
 }
 
 @media screen and (min-width: 0px) and (max-width: 440px) {
+  .Footer {
+    display: none;
+  }
   .FooterContent {
     grid-template-areas:
       "carbon"
@@ -103,6 +106,10 @@
 }
 
 @media screen and (min-width: 441px) and (max-width: 663px) {
+  .Footer {
+    display: none;
+  }
+
   .FooterContent {
     grid-template-areas:
       "carbon"
@@ -114,6 +121,10 @@
 }
 
 @media screen and (min-width: 664px) and (max-width: 1023px) {
+  .Footer {
+    display: block;
+  }
+
   .FooterContent {
     grid-template-areas:
       "carbon carbon"
@@ -124,6 +135,10 @@
 }
 
 @media screen and (min-width: 1024px) {
+  .Footer {
+    display: block;
+  }
+
   .FooterContent {
     grid-template-areas: "links-1 carbon links-2";
     grid-template-rows: auto;

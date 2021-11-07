@@ -12,7 +12,7 @@ const Body = () => {
   const inputedText = <p className = {styles.inputed_text} >{(input)}</p>;
 
   return  (
-  <div> 
+  <div className = {styles.body}> 
     <div className = {styles.google}>
       {input === ''? imgElement : inputedText}
     </div>
