@@ -30,7 +30,7 @@ const Body = () => {
     </div>  
     
     <div className = {styles.buttons}>  
-      <input type="submit" value="Google Search" />
+      <input type="submit" value="Search" />
       <input type="submit" value="I'm Feeling Lucky" />
     </div>
   </div>);
